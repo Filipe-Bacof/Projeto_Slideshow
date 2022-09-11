@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
@@ -22,7 +26,6 @@ header {
     height: 100%;
     display: flex;
     transition: all ease 0.3s;
-    margin-left: -2600px; /* mexendo nessa propriedade as imagens movimentam */
 }
 
 .slider--imagem{
@@ -30,4 +33,22 @@ header {
     height: inherit;
     background-position: center;
     background-size: cover;
+}
+
+.slider--controles {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider--control {
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
 }
