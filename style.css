@@ -11,10 +11,12 @@ header {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-color: #005959;
 }
 
 .header {
     height: 50px;
+    margin-bottom: 20px;
 }
 
 .slider {
@@ -25,7 +27,7 @@ header {
 .slider--width{
     height: 100%;
     display: flex;
-    transition: all ease 0.3s;
+    transition: all ease 0.5s;
 }
 
 .slider--imagem{
@@ -51,4 +53,8 @@ header {
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;
+}
+
+p {
+    width: 30%;
 }
