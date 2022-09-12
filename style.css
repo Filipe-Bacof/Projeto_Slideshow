@@ -11,7 +11,8 @@ header {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: #005959;
+    background-color: black;
+    color: antiquewhite;
 }
 
 .header {
@@ -53,6 +54,10 @@ header {
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    opacity: 20%;
 }
 
 p {
