@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    background-color: black;
 }
 
 header {
@@ -60,6 +61,28 @@ header {
     opacity: 20%;
 }
 
+section * {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+section {
+    background: linear-gradient(to bottom, #071330, #192E54, #293D78, #3A4CA0);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: #d3da11;
+}
+
 p {
     width: 30%;
+    color: #FFFFCC;
+    min-width: 50vw;
+    text-align: justify;
 }
