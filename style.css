@@ -69,6 +69,7 @@ section * {
 
 section {
     background: linear-gradient(to bottom, #071330, #192E54, #293D78, #3A4CA0);
+    padding-bottom: 5rem;
 }
 
 h1 {
@@ -76,8 +77,15 @@ h1 {
     color: white;
 }
 
+.resto-do-site {
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+
 h2 {
     color: #d3da11;
+    padding-bottom: 1rem;
 }
 
 p {
@@ -85,4 +93,5 @@ p {
     color: #FFFFCC;
     min-width: 50vw;
     text-align: justify;
+    padding-bottom: 1.5rem;
 }
